@@ -1,5 +1,4 @@
 var total = document.getElementById("total");
-
 const selectPair = (pair) => {
     var t1 = document.getElementById("1T").innerText;
     var t2 = document.getElementById("2T").innerText;
@@ -27,4 +26,3 @@ const selectPair = (pair) => {
         total.innerHTML = 0;
     }
 }
-
